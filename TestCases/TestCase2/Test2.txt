@@ -1,0 +1,11 @@
+Addi x6,x0,5
+add t1,x0,x6
+slli t1,s3,2
+lw t0,0(t1)
+addi s1,s3,1
+jal x2,F
+add x0,x0,x0
+jal x3,F2
+F:add x1,x1,x1
+jalr x4,0(x2)
+F2:addi x5,x0,5

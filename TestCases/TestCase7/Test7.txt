@@ -1,0 +1,5 @@
+auipc x1,1
+slti x2,x6,2
+addi x2,x0,100
+addi x4,x0,104
+srl x8,x1,x2

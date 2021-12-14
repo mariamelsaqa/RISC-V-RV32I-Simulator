@@ -1,0 +1,8 @@
+addi x2,x0,1000
+lw x3,0(x2)
+lw x4,4(x2)
+add x5,x3,x2
+sw x5,0(x2)
+sh x7,4(x2)
+sb x8,8(x2)
+sw x6,32(x2)
